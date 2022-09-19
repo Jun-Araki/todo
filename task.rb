@@ -5,7 +5,8 @@ class Task
   @@count = 0
 
   def initialize(title:, content:)
-    @id = (@@count += 1)
+    @@count += 1
+    @id = @@count
     @title = title
     @content = content
   end
