@@ -1,4 +1,3 @@
-# rubocop:disable all
 class Task
   attr_accessor :id
   attr_reader :title, :content
@@ -15,4 +14,3 @@ class Task
     "[No.#{@id}] #{@title}:#{@content}"
   end
 end
-# rubocop:enable all
